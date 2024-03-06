@@ -32,7 +32,7 @@ jobs:
     - name: Build & push Docker image
       uses: thangtranswitzerland/docker-build-push@v5
       with:
-      	image: thangtranswitzerland/sprintboot-images-new
+      	image: thangtranswitzerland/springboot-images-new
       	tags: latest
       	registry: docker.io
       	dockerfile: Dockerfile
